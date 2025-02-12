@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Wisconsin Residents Vaccination Records</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+            line-height: 1.6;
+        }
+        h1 {
+            color: #2c3e50;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 12px;
+            text-align: left;
+            vertical-align: top;
+        }
+        th {
+            background-color: #f5f6fa;
+            color: #2c3e50;
+        }
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+        .vaccination-list {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        .vaccination-item {
+            margin-bottom: 5px;
+        }
+        @media print {
+            body {
+                margin: 20px;
+            }
+            table {
+                page-break-inside: auto;
+            }
+            tr {
+                page-break-inside: avoid;
+                page-break-after: auto;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>Wisconsin Residents Vaccination Records</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Vaccinations</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>WI-1</td>
+                <td>Alice Johnson</td>
+                <td>
+                    <ul class="vaccination-list">
+                        <li class="vaccination-item">COVID-19 Pfizer (Jan 15, 2023)</li>
+                        <li class="vaccination-item">Flu (Oct 1, 2023)</li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td>WI-2</td>
+                <td>Bob Smith</td>
+                <td>
+                    <ul class="vaccination-list">
+                        <li class="vaccination-item">COVID-19 Moderna (Dec 20, 2022)</li>
+                        <li class="vaccination-item">COVID-19 Moderna Booster (Apr 10, 2023)</li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td>WI-3</td>
+                <td>Charlie Brown</td>
+                <td>
+                    <ul class="vaccination-list">
+                        <li class="vaccination-item">COVID-19 Pfizer (Mar 10, 2021)</li>
+                        <li class="vaccination-item">COVID-19 Pfizer Booster (May 15, 2022)</li>
+                        <li class="vaccination-item">Flu (Nov 15, 2023)</li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td>WI-4</td>
+                <td>David Lee</td>
+                <td>
+                    <ul class="vaccination-list">
+                        <li class="vaccination-item">COVID-19 Johnson & Johnson (Apr 20, 2021)</li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td>WI-5</td>
+                <td>Eve Miller</td>
+                <td>
+                    <ul class="vaccination-list">
+                        <li class="vaccination-item">COVID-19 Moderna (Jan 25, 2022)</li>
+                        <li class="vaccination-item">COVID-19 Moderna Booster (Jun 1, 2023)</li>
+                        <li class="vaccination-item">Flu (Sep 20, 2023)</li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td>WI-6</td>
+                <td>Frank Wilson</td>
+                <td>
+                    <ul class="vaccination-list">
+                        <li class="vaccination-item">COVID-19 Pfizer (May 10, 2021)</li>
+                        <li class="vaccination-item">COVID-19 Pfizer Booster (Aug 20, 2022)</li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td>WI-7</td>
+                <td>Grace Taylor</td>
+                <td>
+                    <ul class="vaccination-list">
+                        <li class="vaccination-item">COVID-19 Moderna (Feb 18, 2023)</li>
+                        <li class="vaccination-item">Flu (Oct 28, 2023)</li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td>WI-8</td>
+                <td>Henry Anderson</td>
+                <td>
+                    <ul class="vaccination-list">
+                        <li class="vaccination-item">COVID-19 Pfizer (Jun 1, 2021)</li>
+                        <li class="vaccination-item">COVID-19 Pfizer Booster (Mar 5, 2023)</li>
+                        <li class="vaccination-item">Flu (Oct 10, 2022)</li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td>WI-9</td>
+                <td>Ivy Thomas</td>
+                <td>
+                    <ul class="vaccination-list">
+                        <li class="vaccination-item">COVID-19 Moderna (Sep 12, 2022)</li>
+                        <li class="vaccination-item">COVID-19 Moderna Booster (Jul 15, 2023)</li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td>WI-10</td>
+                <td>Jack Jackson</td>
+                <td>
+                    <ul class="vaccination-list">
+                        <li class="vaccination-item">COVID-19 Johnson & Johnson (Jul 28, 2021)</li>
+                        <li class="vaccination-item">COVID-19 Moderna Booster (Aug 22, 2023)</li>
+                        <li class="vaccination-item">Flu (Nov 5, 2023)</li>
+                    </ul>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
